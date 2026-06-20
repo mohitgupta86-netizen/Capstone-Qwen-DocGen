@@ -1,0 +1,45 @@
+# Virtual Environments
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Outputs
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# HuggingFace Cache
+.cache/
+
+# VSCode
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Environment Variables
+.env
+
+# Temporary files
+*.tmp
+
+# Large model artifacts
+model/qwen_lora_docgen/
+*.zip
+
+# Colab
+content/
+
+# Torch
+*.pt
+*.bin
+*.safetensors
